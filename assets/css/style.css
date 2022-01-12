@@ -1,0 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(45deg, rgba(14,0,255,1) 0%, rgba(0,138,255,1) 0%, rgba(20,0,91,1) 75%);
+}
