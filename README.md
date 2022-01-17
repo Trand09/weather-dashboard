@@ -1,8 +1,19 @@
 # Weather Dashboard
 This project is a weather dashboard using the OpenWeather API
 
+## Deployed Application
+View this weather dashboard at https://trand09.github.io/weather-dashboard/
+
 ## Overview
 This project is a weather dashboard application with search functionality to find the current weather conditions and future weather conditions for multiple cities.
+
+
+## Built With
+*HTML
+*CSS
+*JavaScript
+*Bootstrap
+*OpenWeather API
 
 ## User Story
 
