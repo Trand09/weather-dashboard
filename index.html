@@ -19,11 +19,41 @@
             <div class="row">
                 <div class="col-3 ">
                     <h2>Search for a City:</h2>
-                    <form class="border-bottom border-dark pb-3">
-                        <input name="city" id="city" type="text" placeholder="San Diego" autofocus="true" class="form-control">
-                        <button type="submit" class="btn-block btn btn-primary mt-3">Search</button>
+                    <form class="border-bottom border-dark pb-3" id="cityForm">
+                        <input name="city" id="cityName" type="text" placeholder="San Diego" autofocus="true" class="form-control">
+                        <button type="submit" class="btn-block btn btn-primary mt-3">Search</button> <!--figure out if it needs to be button or submit for type-->
                     </form>
+
+                    <div id="cityBtns"></div>
+
                 </div>
+
+                <!--weather forecast-->
+                <div class="col-9" id="weatherMain">
+                    <!--current forecast-->
+                    <div class="border border-dark h-65 pl-1 mt-2" id="currentDay">
+
+                    </div>
+                    <!--end of current forecast-->
+
+
+                    <!--5 day forecast start-->
+                    <div class="mt-4" id="forecast">
+                        <div id="heading">
+
+                        </div>
+
+
+                        <div class="row" id="nextFive">
+
+                        </div>
+
+                    </div>
+                    <!--5 day forecast end-->
+
+                </div>
+
+
             </div>      
         </div>
 
@@ -34,6 +64,7 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="./assets/js/script.js"></script>
     </body>
 </html>
